@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D873823114FB9E4500963B85 /* getImageOperationConCurrent.m in Sources */ = {isa = PBXBuildFile; fileRef = D873823014FB9E4500963B85 /* getImageOperationConCurrent.m */; };
 		D8B44BFF14EBABF30065E8F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B44BFE14EBABF30065E8F0 /* UIKit.framework */; };
 		D8B44C0114EBABF30065E8F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B44C0014EBABF30065E8F0 /* Foundation.framework */; };
 		D8B44C0314EBABF30065E8F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B44C0214EBABF30065E8F0 /* CoreGraphics.framework */; };
@@ -15,22 +16,27 @@
 		D8B44C0F14EBABF30065E8F0 /* IDYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B44C0E14EBABF30065E8F0 /* IDYAppDelegate.m */; };
 		D8B44C1214EBABF30065E8F0 /* IDYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B44C1114EBABF30065E8F0 /* IDYViewController.m */; };
 		D8B44C1514EBABF40065E8F0 /* IDYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8B44C1314EBABF40065E8F0 /* IDYViewController.xib */; };
+		D8B44C2114EBACB40065E8F0 /* getImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B44C2014EBACB40065E8F0 /* getImageOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D873822F14FB9E4500963B85 /* getImageOperationConCurrent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getImageOperationConCurrent.h; sourceTree = "<group>"; };
+		D873823014FB9E4500963B85 /* getImageOperationConCurrent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getImageOperationConCurrent.m; sourceTree = "<group>"; };
 		D8B44BFA14EBABF30065E8F0 /* NSOperationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSOperationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B44BFE14EBABF30065E8F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8B44C0014EBABF30065E8F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8B44C0214EBABF30065E8F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D8B44C0614EBABF30065E8F0 /* NSOperationTest-Info.plist */ = {isa = PBXFileReference; path = "NSOperationTest-Info.plist"; sourceTree = "<group>"; };
+		D8B44C0614EBABF30065E8F0 /* NSOperationTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSOperationTest-Info.plist"; sourceTree = "<group>"; };
 		D8B44C0814EBABF30065E8F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8B44C0A14EBABF30065E8F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D8B44C0C14EBABF30065E8F0 /* NSOperationTest-Prefix.pch */ = {isa = PBXFileReference; path = "NSOperationTest-Prefix.pch"; sourceTree = "<group>"; };
-		D8B44C0D14EBABF30065E8F0 /* IDYAppDelegate.h */ = {isa = PBXFileReference; path = IDYAppDelegate.h; sourceTree = "<group>"; };
+		D8B44C0C14EBABF30065E8F0 /* NSOperationTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSOperationTest-Prefix.pch"; sourceTree = "<group>"; };
+		D8B44C0D14EBABF30065E8F0 /* IDYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDYAppDelegate.h; sourceTree = "<group>"; };
 		D8B44C0E14EBABF30065E8F0 /* IDYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDYAppDelegate.m; sourceTree = "<group>"; };
-		D8B44C1014EBABF30065E8F0 /* IDYViewController.h */ = {isa = PBXFileReference; path = IDYViewController.h; sourceTree = "<group>"; };
+		D8B44C1014EBABF30065E8F0 /* IDYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDYViewController.h; sourceTree = "<group>"; };
 		D8B44C1114EBABF30065E8F0 /* IDYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDYViewController.m; sourceTree = "<group>"; };
 		D8B44C1414EBABF40065E8F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IDYViewController.xib; sourceTree = "<group>"; };
+		D8B44C1F14EBACB40065E8F0 /* getImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getImageOperation.h; sourceTree = "<group>"; };
+		D8B44C2014EBACB40065E8F0 /* getImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getImageOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,10 @@
 				D8B44C1014EBABF30065E8F0 /* IDYViewController.h */,
 				D8B44C1114EBABF30065E8F0 /* IDYViewController.m */,
 				D8B44C1314EBABF40065E8F0 /* IDYViewController.xib */,
+				D8B44C1F14EBACB40065E8F0 /* getImageOperation.h */,
+				D8B44C2014EBACB40065E8F0 /* getImageOperation.m */,
+				D873822F14FB9E4500963B85 /* getImageOperationConCurrent.h */,
+				D873823014FB9E4500963B85 /* getImageOperationConCurrent.m */,
 				D8B44C0514EBABF30065E8F0 /* Supporting Files */,
 			);
 			path = NSOperationTest;
@@ -164,6 +174,8 @@
 				D8B44C0B14EBABF30065E8F0 /* main.m in Sources */,
 				D8B44C0F14EBABF30065E8F0 /* IDYAppDelegate.m in Sources */,
 				D8B44C1214EBABF30065E8F0 /* IDYViewController.m in Sources */,
+				D8B44C2114EBACB40065E8F0 /* getImageOperation.m in Sources */,
+				D873823114FB9E4500963B85 /* getImageOperationConCurrent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +285,7 @@
 				D8B44C1A14EBABF40065E8F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

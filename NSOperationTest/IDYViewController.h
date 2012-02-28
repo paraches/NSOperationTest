@@ -10,4 +10,10 @@
 
 @interface IDYViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UISwitch *opCountSwitch;
+@property (nonatomic, strong) IBOutlet UISwitch *isConcurrent;
+@property (nonatomic, strong) NSArray *urlArray;
+
+- (IBAction)startThreads:(id)sender;
+
 @end
